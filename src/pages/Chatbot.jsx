@@ -25,7 +25,7 @@ export default function Chatbot() {
     setQuestion("");
 
     try {
-      const res = await fetch("https://nova-bot-five.vercel.app/detect_topic", {
+      const res = await fetch("https://nova-bot-topaz.vercel.app/detect_topic", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
